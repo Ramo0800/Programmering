@@ -7,19 +7,9 @@ print("vad vill du ha?")
 item = input()
 print(item, "hur många?")
 amount = input()
-print(amount, item, "nånting mer?")
-answer = input()
-ja = input()
-ja = int(ja)
-nej = input()
-nej = int(nej)    
-if answer == ja:
-    print("vadå för något?")
+amount = int(amount)
 
-elif answer == nej:
-    print("det blir", amount * item)
-
-if item == glass:
+if item == "glass":
     print("det blir", amount * glass)
 
 elif item == varmkorv:
