@@ -10,18 +10,13 @@ amount = input()
 amount = int(amount)
 
 if item == "glass":
-    print("det blir", amount * glass)
+    print("det blir", amount * glass, "kr")
 
-elif item == varmkorv:
-    print("det blir", amount * varmkorv)
+elif item == "varmkorv":
+    print("det blir", amount * varmkorv, "kr")
 
-elif item == läsk:
-    print("det blir", amount * läsk)
-glass = input()
-glass = int(glass)
-varmkorv = input()
-varmkorv = int(varmkorv)
-läsk = input()
-läsk = int(läsk)
-godis = input()
-godis = int(godis)
+elif item == "läsk":
+    print("det blir", amount * läsk, "kr")
+
+elif item == "godis":
+    print("det blir", amount * godis, "kr")
